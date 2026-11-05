@@ -219,7 +219,7 @@ function vInicio() {
   </div>
   ${cont}
   ${!isInstalled() && !S.installHidden ? `<div class="card install-card">
-    <img src="icons/icon-192.png" alt="">
+    <img src="icon-192.png" alt="">
     <div style="flex:1"><div class="t">Leve o LUMINA no celular</div><div class="s">Coloque na tela inicial e abra como um app.</div></div>
     <div class="col"><button class="chip on" data-act="install">Como?</button><button class="link" data-act="hideInstall">Agora não</button></div>
   </div>` : ""}
@@ -718,7 +718,7 @@ const ACT = {
       if (r.outcome === "accepted") return;
     }
     const step = (n, t) => `<div class="step"><span>${n}</span><div>${t}</div></div>`;
-    openSheet(`<div style="text-align:center"><img src="icons/icon-192.png" alt="" style="width:76px;border-radius:18px;box-shadow:var(--shadow)"></div>
+    openSheet(`<div style="text-align:center"><img src="icon-192.png" alt="" style="width:76px;border-radius:18px;box-shadow:var(--shadow)"></div>
       <h2 style="text-align:center;margin:12px 0 4px">Colocar na tela inicial</h2>
       <p class="muted" style="text-align:center;font-size:15px;margin:0 0 16px">Fica com ícone próprio e abre em tela cheia, como um app. Não ocupa espaço de download.</p>
       ${isIOS ? `
