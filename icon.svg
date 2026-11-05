@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0" stop-color="#FBF1E5"/>
+      <stop offset="0.6" stop-color="#F3E1CD"/>
+      <stop offset="1" stop-color="#E8C9A8"/>
+    </radialGradient>
+    <linearGradient id="star" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2C46E"/>
+      <stop offset="1" stop-color="#C9852F"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFE7B0" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#FFE7B0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="256" cy="230" r="120" fill="url(#glow)"/>
+  <path d="M256 92c7 66 26 101 92 138-66 37-85 72-92 138-7-66-26-101-92-138 66-37 85-72 92-138z" fill="url(#star)"/>
+  <text x="256" y="430" text-anchor="middle" font-family="Didot, 'Bodoni 72', Georgia, serif" font-size="58" letter-spacing="6" fill="#2A1A10">LUMINA</text>
+</svg>
